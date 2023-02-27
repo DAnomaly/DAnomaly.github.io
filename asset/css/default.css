@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: line-seed;
+	font-style: normal;
+	font-weight: 100;
+	src: url("/asset/font/LINESeedKR-Th.woff") format("woff");
+}
+@font-face {
+	font-family: line-seed;
+	font-style: normal;
+	font-weight: 400;
+	src: url("/asset/font/LINESeedKR-Rg.woff") format("woff");
+}
+@font-face {
+	font-family: line-seed;
+	font-style: normal;
+	font-weight: 700;
+	src: url("/asset/font/LINESeedKR-Bd.woff") format("woff");
+}
+
+body {
+    font-family: line-seed, Arial, Helvetica, sans-serif;
+    background-color: #b2dbdd;
+}
+
+header {
+    background-color: #1F4E5F;
+}
+header a {
+    color: #FFFFFF;
+}
+header .default-nav a.nav-link {
+    color: #FFFFFF;
+}
+header .default-nav a.nav-link.now-link {
+    color: #AACFD0;
+}
+header .mobile-nav a.dropdown-toggle {
+    color: #FFFFFF;
+}
+header .mobile-nav a.now-link {
+    color: #79A8A9;
+}
+
+main div.container {
+    background-color: #F4F7F7;
+    border-right: 2px solid #98cacb;
+    border-left: 2px solid #98cacb;
+}
+main div.banner {
+    background-color: #79A8A9;
+}
+main div.banner-content {
+    color: #F4F7F7;
+    padding-left: 20px;
+    padding-top: 60px;
+    padding-bottom: 35px;
+    font-size: 20px;
+}
+main div.banner-content strong {
+    color: #1F4E5F;
+}

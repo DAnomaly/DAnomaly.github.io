@@ -1,11 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head lang="ko">
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width">
-    <title>DAnomaly's Blog</title>
-  </head>
-  <body>
-    <p>first index page</p>
-  </body>
+
+<head lang="ko">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>DAnomaly's Blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <link href="/asset/css/default.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/7d4c3e1ea0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <div class="container">
+      <div class="d-flex flex-wrap justify-content-between p-2">
+        <!-- blog name -->
+        <a href="/" class="title d-flex align-items-center text-decoration-none">
+          DAnomaly's Blog
+        </a>
+        <!-- default nav -->
+        <ul class="default-nav nav justify-content-center d-none d-sm-flex">
+          <li><a href="/" class="nav-link px-2 now-link">Home</a></li>
+          <li><a href="/study" class="nav-link px-2">Study</a></li>
+          <li><a href="/play" class="nav-link px-2">Play</a></li>
+          <li><a href="/coffee" class="nav-link px-2">Coffee</a></li>
+        </ul>
+        <!-- mobile nav -->
+        <div class="mobile-nav btn-group justify-content-center d-flex d-sm-none">
+          <a href="javascript:void(0);" class="dropdown-toggle text-decoration-none align-self-center"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a href="/" class="dropdown-item now-link">Home</a></li>
+            <li><a href="/study" class="dropdown-item">Study</a></li>
+            <li><a href="/play" class="dropdown-item">Play</a></li>
+            <li><a href="/coffee" class="dropdown-item">Coffee</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- main -->
+  <main class="px-2">
+    <div class="container pt-3">
+      <div class="row mx-2">
+        <!-- banner -->
+        <div class="banner col-12 mb-2">
+          <div class="banner-content">
+            <span>반갑습니다!</span><br />
+            <span class="small"><strong>DAnomaly</strong>의 Blog입니다</span>
+          </div>
+        </div>
+        <!-- profile -->
+        <div class="profile col-3 mb-2 d-none d-sm-block">
+          안녕하세요
+        </div>
+        <!-- contents -->
+        <div class="contents col-9 mb-2">
+          안녕하세요
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <!-- <span>powered by <storng>DAnomaly</storng></span> -->
+    </div>
+  </footer>
+</body>
+
 </html>
