@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+main div.profile {
+    width: 280px;
+}
+main div.profile .profile-img {
+    width: 280px;
+    height: auto;
+    border-radius: 70%;
+    overflow: hidden;
+}
+main div.profile div.introduce div.id{
+    font-size: 120%;
+    font-weight: bold;
+}
+main div.profile div.introduce div:nth-child(n+1) > span:first-child {
+    display: inline-block;
+    width: 20px;
+}
